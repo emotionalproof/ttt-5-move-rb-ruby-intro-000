@@ -35,3 +35,6 @@ puts "Please, select a position (1-9)"
 player_selection = gets.strip
 
 index = input_to_index(player_selection)
+
+move(board, index, player_character)
+display_board(board)
