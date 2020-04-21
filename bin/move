@@ -21,8 +21,8 @@ def wants_to_play(choice)
     exit
   else
     puts "Please enter y or n!"
-    choice = gets.strip
-    wants_to_play(choice)
+    new_choice = gets.strip
+    wants_to_play(new_choice)
   end
 end
 
