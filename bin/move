@@ -29,3 +29,7 @@ end
 player_character = wants_to_play(choice)
 
 display_board(starting_board)
+
+puts "Where would you like to go?"
+puts "Please, select a position (1-9)"
+player_selection = gets.strip.to_i
