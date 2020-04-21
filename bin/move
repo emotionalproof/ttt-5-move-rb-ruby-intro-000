@@ -16,13 +16,13 @@ def wants_to_play(choice)
     puts "Great! Select your character (X or O)."
     character_selection = gets.strip
     return character_selection
-  elsif choice.upcase == "N"
+  else
     puts "Sorry you were not in the mood. Goodbye"
     exit
-  else
-    puts "Please enter y or n!"
-    new_choice = gets.strip
-    wants_to_play(new_choice)
+  # else
+  #   puts "Please enter y or n!"
+  #   new_choice = gets.strip
+  #   wants_to_play(new_choice)
   end
 end
 
