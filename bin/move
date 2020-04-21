@@ -27,3 +27,5 @@ def wants_to_play(choice)
 end
 
 player_character = wants_to_play(choice)
+
+display_board(starting_board)
