@@ -34,4 +34,4 @@ puts "Where would you like to go?"
 puts "Please, select a position (1-9)"
 player_selection = gets.strip.to_i
 
-selection_index = input_to_index(player_selection)
+index = input_to_index(player_selection)
